@@ -1,12 +1,12 @@
 {
   "name": "d3-conventions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "d3 conventions",
   "keywords": [
     "d3"
   ],
   "license": "MIT",
-  "main": "conventions.js",
+  "main": "build/conventions.js",
   "homepage": "https://github.com/gabrielflorit/d3-conventions",
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
   },
   "dependencies": {
     "d3": "^3.5.10"
-  }
+  },
+	"scripts": {
+		"build": "babel conventions.js -o build/conventions.js"
+	}
 }
