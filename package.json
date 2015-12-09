@@ -1,6 +1,6 @@
 {
   "name": "d3-conventions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "d3 conventions",
   "keywords": [
     "d3"
@@ -16,6 +16,6 @@
     "d3": "^3.5.10"
   },
 	"scripts": {
-		"build": "babel conventions.js -o build/conventions.js"
+		"publish": "babel conventions.js -o build/conventions.js && npm publish"
 	}
 }

@@ -25,8 +25,8 @@ function conventions(opt) {
 	var parentSelection = options.parentSelection || _d32['default'].select('body');
 
 	var svg = options.svg || parentSelection.append('svg').attr({
-		outerWidth: outerWidth,
-		outerHeight: outerHeight
+		width: outerWidth,
+		height: outerHeight
 	}).append('g').attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
 
 	var x = options.x || _d32['default'].scale.linear().range([0, width]);
