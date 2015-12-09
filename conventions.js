@@ -14,8 +14,8 @@ export default function conventions(opt) {
 	const parentSelection = options.parentSelection || d3.select('body');
 
 	const svg = options.svg || parentSelection.append('svg').attr({
-		outerWidth,
-		outerHeight
+		width: outerWidth,
+		height: outerHeight
 	}).append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
 
 	const x = options.x || d3.scale.linear().range([0, width]);
