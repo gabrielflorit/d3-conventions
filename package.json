@@ -6,10 +6,13 @@
     "d3"
   ],
   "license": "MIT",
-  "main": "d3-conventions.js",
+  "main": "conventions.js",
   "homepage": "https://github.com/gabrielflorit/d3-conventions",
   "repository": {
     "type": "git",
     "url": "https://github.com/gabrielflorit/d3-conventions.git"
+  },
+  "dependencies": {
+    "d3": "^3.5.10"
   }
 }
